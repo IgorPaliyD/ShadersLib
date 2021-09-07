@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Displacement
+  m_Shader: {fileID: -6465566751694194690, guid: 383d2f6cd7aa15748a6e38b8d36f1662, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_594fcbded9d943989d3b6e8314c0519e: 1
+    - Vector1_7532b4ec0b9e47308aa3b75e460c4ef6: 0.13
+    - Vector1_abf148fd42c242739e8cbf60c71e209c: 1.44
+    - Vector1_be30d40055344514b539cf8b2d9fd0ec: -5.45
+    m_Colors:
+    - Vector2_83bfa0892d9043ad8fc00bc22b64f099: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
