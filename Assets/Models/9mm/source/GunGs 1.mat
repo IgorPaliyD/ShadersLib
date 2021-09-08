@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GunGs
-  m_Shader: {fileID: -6465566751694194690, guid: 2a9b0343f65ea4545a98c0e3449e9cd9, type: 3}
+  m_Name: GunGs 1
+  m_Shader: {fileID: -6465566751694194690, guid: 52065fd521a4ebd4580b8d495d326cbc, type: 3}
   m_ShaderKeywords: ENUM_A6693C3BFB464C2B86DDEFCBA007008D_Y _EMISSION _METALLICSPECGLOSSMAP
     _NORMALMAP _OCCLUSIONMAP
   m_LightmapFlags: 2
@@ -87,10 +87,10 @@ Material:
     m_Floats:
     - ENUM_A6693C3BFB464C2B86DDEFCBA007008D: 1
     - Vector1_0d87f6053f4645e69fcf512e16072594: 1
-    - Vector1_4ad2726a96dc499f9594ee12635537f8: 0.01
-    - Vector1_96c363600890448fa74ba28afeeb3608: 0.61
-    - Vector1_977974e2a7a04a1aa54813091afb5ea9: 0.0121
-    - Vector1_de4523a0184a46a7b028a4a3fdb444b9: 0.08
+    - Vector1_4ad2726a96dc499f9594ee12635537f8: 0.005
+    - Vector1_96c363600890448fa74ba28afeeb3608: 0.82
+    - Vector1_977974e2a7a04a1aa54813091afb5ea9: 0.01049
+    - Vector1_de4523a0184a46a7b028a4a3fdb444b9: 0.05
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
