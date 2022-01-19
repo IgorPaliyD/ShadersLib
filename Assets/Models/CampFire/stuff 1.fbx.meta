@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 6525813de64fc794599b63b4e14e44fd
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 0b79857ec1a77ca469ea30b113a7ef3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black1
+    second: {fileID: 2100000, guid: e4b0780464be36245b4a7d97feec3c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards_Wood
+    second: {fileID: 2100000, guid: 4933d492cc8590c4ca42c0285484c5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards_Wood1
+    second: {fileID: 2100000, guid: 8f3f08b8feee0eb4a9ca164b761acd02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards_Wood2
+    second: {fileID: 2100000, guid: 9ae34583148999640a9e2d1b8dae4af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Stone
+    second: {fileID: 2100000, guid: bb15c8724a399754ea43aa6aeb6656d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Stone1
+    second: {fileID: 2100000, guid: 72ba49dee292c0e4da3b105c2331abae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Stone2
+    second: {fileID: 2100000, guid: 4bb9ee1045c9ad2459117979fe435aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Wood
+    second: {fileID: 2100000, guid: 5d910538891f35e46add709dbe4ca298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Wood1
+    second: {fileID: 2100000, guid: ce8e848cf322e5a4d95826657b33667e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Wood2
+    second: {fileID: 2100000, guid: c3a109ccf977d3744a18c163ab858819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Wood3
+    second: {fileID: 2100000, guid: 0b2fe6865d9c96e4e9b4973c4c6db8e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_Wood4
+    second: {fileID: 2100000, guid: 9d3cf74b4b8209d428ae4f763ddaa676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Metal
+    second: {fileID: 2100000, guid: 1199e84e8f8d0c744830c298c4c152b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Metal1
+    second: {fileID: 2100000, guid: d2a0f1b6919b1294fbcaea82b5fdbcfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Metal2
+    second: {fileID: 2100000, guid: 4768d334aa6799441b35a58433f2a2b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Wax
+    second: {fileID: 2100000, guid: e25ee30bdb5481e4bb7908887b2dc7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Wax1
+    second: {fileID: 2100000, guid: d27b4e5d648ec8b4cb7826508d4dd2e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Wax2
+    second: {fileID: 2100000, guid: 8d6e02fae9a821c4d8998a41f1295720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal
+    second: {fileID: 2100000, guid: bccb2e134f83c0d40bfd8b82bb61d741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal1
+    second: {fileID: 2100000, guid: 3b8ed3c672a7fe74288b09cd6798ccac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal2
+    second: {fileID: 2100000, guid: 555d7296aa2ca6645a584b1a53eb1e01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal3
+    second: {fileID: 2100000, guid: 9ba24a92b49b7b548a63cc1d99a2f3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal4
+    second: {fileID: 2100000, guid: e33a61407d5fa7243ba30e253a66c998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal5
+    second: {fileID: 2100000, guid: 66ff9a81bb923474c8fc2275a3c894db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal6
+    second: {fileID: 2100000, guid: 632326f0a5182f34db67edfbc79ea007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain_Metal7
+    second: {fileID: 2100000, guid: 55ec30717af415a46a96feb23cb406db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate_Wood
+    second: {fileID: 2100000, guid: 1093993474a4b3247a2c4f7dfb15ce72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate_Wood1
+    second: {fileID: 2100000, guid: 406e052db46db9f409729edfa251dc1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate_Wood2
+    second: {fileID: 2100000, guid: 7da97076fdd4fcb4cbc0cd9322b549e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate_Wood3
+    second: {fileID: 2100000, guid: 8f1831ba9e06b2841a0926d949d6f982, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate_Wood4
+    second: {fileID: 2100000, guid: c7a178aa359ecb54fad80f7b94036a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals
+    second: {fileID: 2100000, guid: 2e2ed91cd644db24dad3580699887484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals1
+    second: {fileID: 2100000, guid: 3a5cde311bcd6164296a5e8b6653cdc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals2
+    second: {fileID: 2100000, guid: 9e42c055ed1c3814ea070cb305a36f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals3
+    second: {fileID: 2100000, guid: 13fea10b06da54f498d159747bd39e33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals4
+    second: {fileID: 2100000, guid: 45925cf273e27e44585d3acd13bf3d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystals5
+    second: {fileID: 2100000, guid: ec29bdee2385c6e458d0f2541933ac33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 6d114f2e1e2c3c141a143e13fd90a074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 0b35aed7d9bed8a4fb40989b36400f8c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
