@@ -54,6 +54,7 @@ Material:
     - Vector1_6874237d6c9f4c4a87c3bebcf6523e5c: 0.06
     - Vector1_6aaf06fb560449c28a02393ee38e4805: 5
     - Vector1_7532b4ec0b9e47308aa3b75e460c4ef6: 0.13
+    - Vector1_82fcda080a544cf187eb0eb8bc3c9860: 1
     - Vector1_8a0c713e9766474bbf97f29d51108b65: 1
     - Vector1_9948a2773efa4233b1dcef8c9f9f8c5d: 1
     - Vector1_9d1bb702f39c453a8bb6864b7e9df9a3: 1
@@ -66,7 +67,7 @@ Material:
     - Vector1_d590af844b7a4d7d91a03de8e2a208ec: 30
     - Vector1_e5bb6241862b4efaa0a0d0e4d698e83d: 0.03
     m_Colors:
-    - Color_b6cda4cc8dee432a80f4d0c06f6ef20f: {r: 1, g: 0.6066144, b: 0, a: 0}
+    - Color_b6cda4cc8dee432a80f4d0c06f6ef20f: {r: 0, g: 1, b: 0.63417697, a: 0}
     - Vector2_01f59156f7604eecb3e8945ab7b07cbc: {r: 16, g: 5, b: 0, a: 0}
     - Vector2_268bb14c286f4a5a95a8024f339fb259: {r: 0.5, g: 0.2, b: 0, a: 0}
     - Vector2_2beae8f4549747c9b9e86a61987c2945: {r: 0.01, g: 0, b: 0, a: 0}

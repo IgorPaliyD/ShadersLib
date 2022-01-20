@@ -77,6 +77,9 @@
         },
         {
             "m_Id": "1a780defa31448a5af5d00b645e5371f"
+        },
+        {
+            "m_Id": "acca58c7215c4609a1fa5133c8bf05e4"
         }
     ],
     "m_GroupDatas": [],
@@ -239,6 +242,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "acca58c7215c4609a1fa5133c8bf05e4"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "9448ee376a13461d95d37d9a69b82c1f"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "ae1c042abf2b4428a3e97a423348e72d"
                 },
                 "m_SlotId": 2
@@ -354,7 +371,7 @@
     },
     "m_PreviewData": {
         "serializedMesh": {
-            "m_SerializedMesh": "{\"mesh\":{\"fileID\":10210,\"guid\":\"0000000000000000e000000000000000\",\"type\":0}}",
+            "m_SerializedMesh": "{\"mesh\":{\"fileID\":10200,\"guid\":\"0000000000000000e000000000000000\",\"type\":0}}",
             "m_Guid": ""
         }
     },
@@ -1770,6 +1787,41 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "acca58c7215c4609a1fa5133c8bf05e4",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "BillboardComponentForVertexposition",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -567.1163940429688,
+            "y": -148.42910766601563,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "f533c68c42864f279b502e04814fe3a1"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"891692cf3b2522c40b069ab45378b7b7\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [],
+    "m_PropertyIds": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
     "m_ObjectId": "adf4882d76b740c98530d989f54bedcb",
     "m_Id": 1,
@@ -1795,13 +1847,13 @@
     },
     "m_Name": "Split",
     "m_DrawState": {
-        "m_Expanded": false,
+        "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1067.2001953125,
-            "y": 123.199951171875,
-            "width": 120.00000762939453,
-            "height": 76.80000305175781
+            "x": -1182.4000244140625,
+            "y": 0.000012842559954151511,
+            "width": 120.0,
+            "height": 148.8000030517578
         }
     },
     "m_Slots": [
@@ -2390,7 +2442,7 @@
     },
     "m_SurfaceType": 1,
     "m_AlphaMode": 0,
-    "m_TwoSided": false,
+    "m_TwoSided": true,
     "m_AlphaClip": false,
     "m_CustomEditorGUI": ""
 }
@@ -2407,8 +2459,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1212.7999267578125,
-            "y": 16.79996681213379,
+            "x": -1356.800048828125,
+            "y": -21.5999813079834,
             "width": 145.5999755859375,
             "height": 128.8000030517578
         }
@@ -2502,6 +2554,29 @@
     "m_ShaderOutputName": "Sampler",
     "m_StageCapability": 3,
     "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "f533c68c42864f279b502e04814fe3a1",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Vector3",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutVector3",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
 }
 
 {
