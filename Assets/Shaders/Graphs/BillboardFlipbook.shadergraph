@@ -1015,6 +1015,27 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "35eacf54781943bda185059d43035c0e",
+    "m_Id": 772275869,
+    "m_DisplayName": "MinMaxPositionY",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector2_316787df37484399b5721e3f8c3bc2ac",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "361cc71cbf68408aa97292c2e380556e",
     "m_Id": 2,
     "m_DisplayName": "Offset",
@@ -2263,6 +2284,12 @@
     },
     "m_Slots": [
         {
+            "m_Id": "35eacf54781943bda185059d43035c0e"
+        },
+        {
+            "m_Id": "f3cbfe0826dd44b1ae06c31a5398b17d"
+        },
+        {
             "m_Id": "0349b25667b3468a9499f3b35acb8b3b"
         }
     ],
@@ -2274,8 +2301,14 @@
         "m_SerializableColors": []
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"891692cf3b2522c40b069ab45378b7b7\",\n        \"type\": 3\n    }\n}",
-    "m_PropertyGuids": [],
-    "m_PropertyIds": []
+    "m_PropertyGuids": [
+        "26b0b063-60b7-4eb8-9c0e-689db6386e46",
+        "ec4cb8e1-cf2f-44c5-b4b0-e84017c836b8"
+    ],
+    "m_PropertyIds": [
+        772275869,
+        -882639716
+    ]
 }
 
 {
@@ -2472,6 +2505,27 @@
     "m_StageCapability": 3,
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "f3cbfe0826dd44b1ae06c31a5398b17d",
+    "m_Id": -882639716,
+    "m_DisplayName": "MinMaxPositionX",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector2_1",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
     "m_Labels": []
 }
 
