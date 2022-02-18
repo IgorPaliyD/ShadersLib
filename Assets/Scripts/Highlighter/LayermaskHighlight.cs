@@ -6,56 +6,48 @@ namespace Tools
 {
     public class LayermaskHighlight : MonoBehaviour
     {
-        [SerializeField] private List<HiglightState> m_states;
+        public List<string> HighlightSatets;
         [SerializeField] private bool m_allowHighlight = true;
         [SerializeField] private GameObject m_targetObject;
+        private int _defaultLayer;
         private void Start()
         {
             if (CanProcess())
             {
-                AddNewLayer("default", m_targetObject.layer);
+                _defaultLayer = m_targetObject.layer;
+               
             }
 
         }
-        public void AddNewLayer(string layerName, LayerMask mask)
+        public void AddNewLayer(string layerName)
         {
             if (StateNameCheck(layerName)) return;
-            var newState = new HiglightState();
-            newState.StateName = layerName;
-            newState.StateLayer = mask;
-            m_states.Add(newState);
+           HighlightSatets.Add(layerName);
         }
         public void Highlight(string highlightLayer)
         {
             if (!CanProcess() || !StateNameCheck(highlightLayer)) return;
-            for (int i = 0; i < m_states.Count; i++)
+            for (int i = 0; i < HighlightSatets.Count; i++)
             {
-                if (m_states[i].StateName == highlightLayer)
+                if (HighlightSatets[i] == highlightLayer)
                 {
-                    m_targetObject.layer = m_states[i].StateLayer;
+                    m_targetObject.layer = LayerMask.NameToLayer(HighlightSatets[i]);
                     break;
                 }
             }
 
         }
-        public void UndoHiglight(string highlightLayer)
+        public void UndoHiglight()
         {
             if (!CanProcess()) return;
-            for (int i = 0; i < m_states.Count; i++)
-            {
-                if (m_states[i].StateName == highlightLayer)
-                {
-                    m_targetObject.layer = m_states[i].StateLayer;
-                    break;
-                }
-            }
+            m_targetObject.layer=_defaultLayer;
         }
         private bool StateNameCheck(string stateName)
         {
             bool result = false;
-            for (int i = 0; i < m_states.Count; i++)
+            for (int i = 0; i < HighlightSatets.Count; i++)
             {
-                if (m_states[i].StateName == stateName)
+                if (HighlightSatets[i] == stateName)
                 {
                     result = true;
                     break;
@@ -67,15 +59,10 @@ namespace Tools
         {
             if (m_targetObject == null) return false;
             if (m_allowHighlight == false) return false;
-            if (m_states.Count == 0 || m_states == null) return false;
+            if (HighlightSatets.Count == 0 || HighlightSatets == null) return false;
             return true;
         }
-        [System.Serializable]
-        private struct HiglightState
-        {
-            public string StateName;
-            public LayerMask StateLayer;
-        }
+      
     }
 
 }
