@@ -38,6 +38,9 @@
         },
         {
             "m_Id": "79f9ef6383cc44598025da17cfba8438"
+        },
+        {
+            "m_Id": "51956b6b85874bf3b176b8e75da12784"
         }
     ],
     "m_Keywords": [
@@ -147,6 +150,9 @@
         },
         {
             "m_Id": "48db090dba08447ca8aba47e65d9e0cd"
+        },
+        {
+            "m_Id": "23236385e74547b6aaeb00c36fc91ebf"
         }
     ],
     "m_GroupDatas": [],
@@ -164,6 +170,20 @@
                     "m_Id": "0c3807f06eb74eadb25e18c01c64fcd0"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "23236385e74547b6aaeb00c36fc91ebf"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "cdda594091754b40aa13021c922f5f54"
+                },
+                "m_SlotId": 2
             }
         },
         {
@@ -982,6 +1002,41 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "23236385e74547b6aaeb00c36fc91ebf",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1596.2574462890625,
+            "y": 1153.219970703125,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "79663a9361964845919e04204a834d9c"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "51956b6b85874bf3b176b8e75da12784"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "23b52ed84c404f1597334348e5f053aa",
     "m_Id": 6,
@@ -1701,6 +1756,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
+    "m_ObjectId": "51956b6b85874bf3b176b8e75da12784",
+    "m_Guid": {
+        "m_GuidSerialized": "ae64e738-eb34-4416-a5a5-6d005c417cbb"
+    },
+    "m_Name": "Min/Max AnimationRemap",
+    "m_DefaultReferenceName": "Vector2_51956b6b85874bf3b176b8e75da12784",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
     "m_ObjectId": "52a1447dc5974136a369fa8a9e949e48",
@@ -2218,6 +2296,27 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "79663a9361964845919e04204a834d9c",
+    "m_Id": 0,
+    "m_DisplayName": "Min/Max AnimationRemap",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "79f9ef6383cc44598025da17cfba8438",
@@ -2238,7 +2337,7 @@
         "b": 0.0,
         "a": 0.0
     },
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {

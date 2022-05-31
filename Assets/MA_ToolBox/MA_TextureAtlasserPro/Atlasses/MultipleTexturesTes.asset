@@ -162,20 +162,20 @@ MonoBehaviour:
   debugMode: 0
   dragRectHeight:
     serializedVersion: 2
-    x: 731.65216
-    y: 675.32556
+    x: 415.3333
+    y: 600.6667
     width: 64
     height: 16
   dragRectWidth:
     serializedVersion: 2
-    x: 1003.65216
-    y: 403.32553
+    x: 687.3333
+    y: 328.66666
     width: 16
     height: 64
   dragRectPos:
     serializedVersion: 2
-    x: 747.65216
-    y: 419.32553
+    x: 431.3333
+    y: 344.66666
     width: 32
     height: 32
   textureGroups:

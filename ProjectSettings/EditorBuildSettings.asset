@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 0
+    path: Assets/Scenes/VFX Graphs.unity
+    guid: f0b2a04f5c76c474fbdb89393bd61564
+  - enabled: 1
+    path: Assets/Scenes/KefirScenes/ShaderScene.unity
+    guid: 9d7b971a936431042bdd29326202ae93
   m_configObjects: {}
