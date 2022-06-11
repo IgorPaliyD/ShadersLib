@@ -2,14 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HandMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 18a0804c056ee534bb78c84250cba798, type: 3}
-  m_ShaderKeywords: ENUM_8F6398471805459D9933F844F38F0899_Y ENUM_B7D847409CEE40CF9001788CCCB14ED9_C
+  m_ValidKeywords:
+  - ENUM_8F6398471805459D9933F844F38F0899_Y
+  m_InvalidKeywords:
+  - ENUM_B7D847409CEE40CF9001788CCCB14ED9_C
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +23,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_4ff53ab9a86c4dc28f7ad04d7144714a:
-        m_Texture: {fileID: 2800000, guid: 0b65b6c2fa0666240a26b451aee25671, type: 3}
+        m_Texture: {fileID: 2800000, guid: 40f0e472e4dbc9f4c88bc7d5807c35a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9841662e634e411eb34110b266c73876:
@@ -39,6 +42,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_966048af5dd2407fbb7aa5d396c418d5: 1
     - ENUM_8F6398471805459D9933F844F38F0899: 1
@@ -51,9 +55,24 @@ Material:
     - Vector1_8a0c713e9766474bbf97f29d51108b65: 1
     - Vector1_9d1bb702f39c453a8bb6864b7e9df9a3: 2
     - Vector1_cd5ab5aa796b4217b68c78d1ef22c4a2: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Vector2_0003cf47839444a99f81adb8e5695971: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_2beae8f4549747c9b9e86a61987c2945: {r: 0.01, g: 0, b: 0, a: 0}
     - Vector2_ab6c6ab2ff7547258bca0afc201e5bf2: {r: 5, g: 5, b: 0, a: 0}
     - _Color: {r: 0.1830188, g: 0.7029244, b: 1, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &11464556540837898
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

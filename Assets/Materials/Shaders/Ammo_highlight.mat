@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ammo_highlight
   m_Shader: {fileID: -6465566751694194690, guid: 9845c7911d187bd41b69fa02ba908121, type: 3}
-  m_ShaderKeywords: BOOLEAN_175AE2D6A995463885066807F7C72AEC_ON
+  m_ValidKeywords:
+  - BOOLEAN_175AE2D6A995463885066807F7C72AEC_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,6 +45,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - BOOLEAN_175AE2D6A995463885066807F7C72AEC: 1
     - Vector1_1d635c39cc9a40bca4686e309568be78: 1
@@ -52,9 +55,24 @@ Material:
     - Vector1_81be660ddce04d6880dff88168ebe559: 0
     - Vector1_b95cf49d5c2e4c28abe66917b3877c0d: 1
     - Vector1_da65ae94af634faabb7b54e1b2a598d5: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_79f9ef6383cc44598025da17cfba8438: {r: 1, g: 0.6770432, b: 0, a: 0}
     - Vector2_0855e1d011b8463bbf540de4b08ee30e: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_51956b6b85874bf3b176b8e75da12784: {r: 0.2, g: 2, b: 0, a: 0}
     - Vector2_90734294977b43859f4250e00d39ec3f: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &3776240016802367296
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

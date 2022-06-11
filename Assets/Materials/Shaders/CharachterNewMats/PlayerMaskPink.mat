@@ -1,19 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4540928177355844300
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PlayerMaskPink
   m_Shader: {fileID: -6465566751694194690, guid: 30569fef5b1dbf44fbcbd441c6fdf90b, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2999
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -39,6 +53,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 205334fbf06b0dd4f87296ff42a2dd48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AnimatedTexture:
+        m_Texture: {fileID: 2800000, guid: 9385dea399c6b404fb3f866cbd783ac8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HologramLine:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_3d83c0dea51641fb9cdd4ec9ab360496_Texture_1:
         m_Texture: {fileID: 2800000, guid: 85f24c093f3118e4eb840edddcb45cbc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,25 +77,31 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_0a93295bcd7e419d939f61af3abe232a: 0.1
     - Vector1_1950e475ea26489f992dd216f3fe2f77: 0.93
     - Vector1_4405c341b61a406d9b2412a1c0073c7a: -0.5
     - Vector1_466eb19366e742698d15f0b36b991fc6: 181.9
     - Vector1_4676a725cb704a05a20c1fdb1b4bf6ff: 2.29
-    - Vector1_51c21a296c9445aea62dc671f2094688: 0.49
-    - Vector1_676631b658fa4cd2bb607ecac5e79eec: 0.4
+    - Vector1_51c21a296c9445aea62dc671f2094688: 1
+    - Vector1_676631b658fa4cd2bb607ecac5e79eec: 0.45
     - Vector1_69a10a886c5146a491a960a3b386fda4: 0.26
-    - Vector1_76148de5ef8e4ee1b6b8029a0e0cdb36: 0.05
-    - Vector1_85db5f66f4b5494c85c99f0e0cd3f6e1: 0.12
+    - Vector1_76148de5ef8e4ee1b6b8029a0e0cdb36: -0.38
+    - Vector1_85db5f66f4b5494c85c99f0e0cd3f6e1: 0.07
     - Vector1_95c3fd8795f4444893ad816cd5a9e18a: 0.48
     - Vector1_9fba6bd95e4a47b8a5208614075dfd2b: 1.22
     - Vector1_d1f5003fe54e44f6869fa465dff58506: 0
     - Vector1_d1f5003fe54e44f6869fa465dff58506_1: 0
+    - _Alpha_Strength: 1
     - _CutOffHeight: 1.15
+    - _LineStrength: 0
+    - _LineTiming: 0
+    - _QueueControl: 1
+    - _QueueOffset: 0
     m_Colors:
     - Color_4f8bee25333d4852a93028f7e5462f73: {r: 0.7254902, g: 0.14117648, b: 0.8862745, a: 0}
     - Color_a4d93a840aea40849143e189de9fb2b0: {r: 0.7842107, g: 0, b: 1, a: 0}
-    - Vector2_4c016fb51f464ac3ac2811908486d81e: {r: 5, g: 8.57, b: 0, a: 0}
+    - Vector2_4c016fb51f464ac3ac2811908486d81e: {r: 3, g: 3, b: 0, a: 0}
     - Vector2_eef4e462098b487a97fa6ea871077554: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []

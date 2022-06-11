@@ -1,15 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1812172508739304651
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: OldWoman
   m_Shader: {fileID: -6465566751694194690, guid: 30569fef5b1dbf44fbcbd441c6fdf90b, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -39,6 +53,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 205334fbf06b0dd4f87296ff42a2dd48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AnimatedTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_3d83c0dea51641fb9cdd4ec9ab360496_Texture_1:
         m_Texture: {fileID: 2800000, guid: 85f24c093f3118e4eb840edddcb45cbc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,6 +73,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_0a93295bcd7e419d939f61af3abe232a: 0.1
     - Vector1_1950e475ea26489f992dd216f3fe2f77: 0.93
@@ -70,7 +89,10 @@ Material:
     - Vector1_9fba6bd95e4a47b8a5208614075dfd2b: 1.33
     - Vector1_d1f5003fe54e44f6869fa465dff58506: 0
     - Vector1_d1f5003fe54e44f6869fa465dff58506_1: 0
+    - _Alpha_Strength: 1
     - _CutOffHeight: 1.15
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_4f8bee25333d4852a93028f7e5462f73: {r: 0.5529412, g: 0.94509804, b: 0.6431373, a: 0.6431373}
     - Color_a4d93a840aea40849143e189de9fb2b0: {r: 0, g: 0.015686275, b: 0.5294118, a: 0.6784314}

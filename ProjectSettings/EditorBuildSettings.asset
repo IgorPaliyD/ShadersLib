@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/VFX Graphs.unity
     guid: f0b2a04f5c76c474fbdb89393bd61564
   - enabled: 1
-    path: Assets/Scenes/KefirScenes/ShaderScene.unity
+    path: Assets/Scenes/KefirScenes/ShaderShowcase.unity
     guid: 9d7b971a936431042bdd29326202ae93
   m_configObjects: {}

@@ -1,15 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5241746222729500216
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FakeInterior
   m_Shader: {fileID: -6465566751694194690, guid: 913642b5aa6dc2741b6e109854ae3d2d, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -35,11 +49,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_57638ee2d50f4279959e0df2c785f4b6: 0.5
     - Vector1_8b84edfc744e4de4863c4e8638240b69: 0.32
     - Vector1_a680fecbb7c241388b92184bbe5006ae: -0.14
     - Vector1_f7dcb8f68441481f95600ee4006fe28f: 0.47
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Vector2_b86bdb6fd99641e5bd63763bc94ad452: {r: 0.46, g: 1.07, b: 0.15, a: 0}
     - Vector3_74fce4bd46dc411d9101395fc0b7b6e1: {r: 0.76, g: 0, b: 1, a: 2.41}

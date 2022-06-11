@@ -122,7 +122,7 @@ namespace MA_Texture
 
 			}
 
-			texture.Resize(newWidth, newHeight);
+			texture.Reinitialize(newWidth, newHeight);
 			texture.SetPixels(newColors);
 			texture.Apply();
 
