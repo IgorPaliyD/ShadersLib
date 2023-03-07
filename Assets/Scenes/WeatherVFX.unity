@@ -582,10 +582,10 @@ VisualEffect:
       - m_Value: {x: 0.1, y: 0.1, z: 0.1}
         m_Name: Particle Scale
         m_Overridden: 1
-      - m_Value: {x: -0.24427399, y: 3.0807545, z: -0.3052354}
+      - m_Value: {x: -0.34263086, y: 3.0807543, z: -0.095765114}
         m_Name: Spawn Volume Box_center
         m_Overridden: 1
-      - m_Value: {x: 8.616364, y: 0.12340689, z: 6.6548157}
+      - m_Value: {x: 10.598187, y: 0.12340689, z: 9.924334}
         m_Name: Spawn Volume Box_size
         m_Overridden: 1
       - m_Value: {x: 0, y: -0.5, z: 0}
@@ -630,7 +630,7 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0.0041656494
-            value: 0.24942017
+            value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -1250,7 +1250,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 1757249787}
+  - {fileID: 1757249786}
   m_VisualEffect: {fileID: 1757249790}
 --- !u!73398921 &1757249789
 VFXRenderer:

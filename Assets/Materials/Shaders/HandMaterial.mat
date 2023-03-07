@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HandMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 18a0804c056ee534bb78c84250cba798, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - ENUM_8F6398471805459D9933F844F38F0899_Y
   m_InvalidKeywords:
@@ -19,11 +21,12 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_4ff53ab9a86c4dc28f7ad04d7144714a:
-        m_Texture: {fileID: 2800000, guid: 40f0e472e4dbc9f4c88bc7d5807c35a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5505387d2442ac24d86670e804f708e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9841662e634e411eb34110b266c73876:
@@ -47,7 +50,7 @@ Material:
     - Boolean_966048af5dd2407fbb7aa5d396c418d5: 1
     - ENUM_8F6398471805459D9933F844F38F0899: 1
     - ENUM_B7D847409CEE40CF9001788CCCB14ED9: 2
-    - Vector1_32533baf64fc4aae80209ddbf64530b2: 0.39
+    - Vector1_32533baf64fc4aae80209ddbf64530b2: 0.8
     - Vector1_358c084045284d4aa331e5a30fc8c93b: 1.14
     - Vector1_668ba17120eb4359985730b149268b2a: 15
     - Vector1_6874237d6c9f4c4a87c3bebcf6523e5c: 1
@@ -60,7 +63,7 @@ Material:
     m_Colors:
     - Vector2_0003cf47839444a99f81adb8e5695971: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_2beae8f4549747c9b9e86a61987c2945: {r: 0.01, g: 0, b: 0, a: 0}
-    - Vector2_ab6c6ab2ff7547258bca0afc201e5bf2: {r: 5, g: 5, b: 0, a: 0}
+    - Vector2_ab6c6ab2ff7547258bca0afc201e5bf2: {r: 1, g: 1, b: 0, a: 0}
     - _Color: {r: 0.1830188, g: 0.7029244, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &11464556540837898
@@ -75,4 +78,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 6

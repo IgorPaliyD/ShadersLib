@@ -60,3 +60,27 @@ The following packages were updated:
   com.unity.test-framework from version 1.1.27 to 1.1.31
   com.unity.timeline from version 1.4.8 to 1.6.4
   com.unity.visualeffectgraph from version 10.5.1 to 12.1.6
+
+=== Sun Feb 19 15:59:24 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.15.16 to 1.17.2
+  com.unity.ide.rider from version 3.0.14 to 3.0.15
+  com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
+  com.unity.inputsystem from version 1.3.0 to 1.4.1
+  com.unity.render-pipelines.universal from version 12.1.6 to 13.1.8
+  com.unity.test-framework from version 1.1.31 to 1.1.33
+  com.unity.timeline from version 1.6.4 to 1.7.1
+  com.unity.visualeffectgraph from version 12.1.6 to 13.1.8
+
+=== Tue Feb 21 19:43:44 2023
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.8.6 to 2.8.9
+  com.unity.inputsystem from version 1.4.1 to 1.4.4

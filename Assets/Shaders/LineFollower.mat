@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 6
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -22,6 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LineFollower
   m_Shader: {fileID: -6465566751694194690, guid: 7866a72b5e4706d4da97f622e8f1ff9b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - ENUM_FBAD91FA164140A7B8A87EDD7C453C1C_B
@@ -32,6 +34,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -82,6 +85,8 @@ Material:
     - Vector1_f1233258c0e54a4b978488080ac4b15d: 1.54
     - Vector1_f5db00e8f1dc4af3b949be3edf4402ac: 1
     - _Animate: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_5975f058148743cabb4bd8801fe84617: {r: 0, g: 1, b: 0.63778496, a: 0}
     - Color_add73c56cc9a46b3b97195acf5767b57: {r: 0, g: 1, b: 0.8758769, a: 0}
