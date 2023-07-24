@@ -7,9 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.E4EB812F" = ""
+	"last_search.E4EB812F" = "particle"
 	"OpenInspectorPreview.E4EB812F" = "0"
-	"currentGroup.E4EB812F" = "_group_provider_Texture 2D"
+	"currentGroup.E4EB812F" = "all"
 }
 providers = {
 	adb = {

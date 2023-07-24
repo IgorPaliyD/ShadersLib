@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 70c9bf32752d4df4e80b85aa1c00b0ed
+labels:
+- cmp_gameMode
+- pcf_gameMode
+- srv_gameMode
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

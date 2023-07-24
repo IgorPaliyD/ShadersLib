@@ -57,11 +57,10 @@ Shader "USB/kaleidoscope"
             float4 frag(v2f i):SV_TARGET{
                 float u = abs(i.uv.x-0.5);
                 float v = abs(i.uv.y-0.5);
-                float rotation = _Rotation;
                 float2 uv = 0;
                 float center = 0.5;
-
-                Unity_Rotate_Degrees_float(float2(u,v),center,rotation,uv);
+                float rotation = sin(_Time.y*_Rotation);
+                Unity_Rotate_Degrees_float(float2(u,v),center,lerp(0,360,rotation),uv);
 
                 float4 color = tex2D(_MainTex,uv);
 
